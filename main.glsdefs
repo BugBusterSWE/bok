@@ -1,0 +1,810 @@
+\ifglsentryexists{sistematico}{}%
+{%
+\gls@defglossaryentry{sistematico}%
+{%
+name={sistematico},%
+sort={sistematico},%
+type={main},%
+first={sistematico},%
+firstplural={sistematicos},%
+text={sistematico},%
+plural={sistematicos},%
+description={Colui che sa far quella cosa - darsi delle regole - approcciarsi in al problema con metodo. Ci\`o porta valore all'efficenza e all'efficacia},%
+descriptionplural={Colui che sa far quella cosa - darsi delle regole - approcciarsi in al problema con metodo. Ci\`o porta valore all'efficenza e all'efficacia},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{stakeholder}{}%
+{%
+\gls@defglossaryentry{stakeholder}%
+{%
+name={stakeholder},%
+sort={stakeholder},%
+type={main},%
+first={stakeholder},%
+firstplural={stakeholders},%
+text={stakeholder},%
+plural={stakeholders},%
+description={Dall'inglese, portatore di interessi. Sono l'insieme di persone a vario titolo coinvolte nel ciclo di vita del Software con influenza sul prodotto},%
+descriptionplural={Dall'inglese, portatore di interessi. Sono l'insieme di persone a vario titolo coinvolte nel ciclo di vita del Software con influenza sul prodotto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{processo}{}%
+{%
+\gls@defglossaryentry{processo}%
+{%
+name={processo},%
+sort={processo},%
+type={main},%
+first={processo},%
+firstplural={processos},%
+text={processo},%
+plural={processos},%
+description={Multiple definizioni: \begin {enumerate} \item Detto in inglese come \textit {Way of working}. Esso \`e rappresentabile come un automa a stati, dove ogni stato rappresenta uno stadio del ciclo di vita del processo \item Un insieme di attività, interconnesse, che trasforma uno o più input in output consumando risorse. (SWEBok 8-1) \end {enumerate}},%
+descriptionplural={Multiple definizioni: \begin {enumerate} \item Detto in inglese come \textit {Way of working}. Esso \`e rappresentabile come un automa a stati, dove ogni stato rappresenta uno stadio del ciclo di vita del processo \item Un insieme di attività, interconnesse, che trasforma uno o più input in output consumando risorse. (SWEBok 8-1) \end {enumerate}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sync}{}%
+{%
+\gls@defglossaryentry{sync}%
+{%
+name={sync},%
+sort={sync},%
+type={main},%
+first={sync},%
+firstplural={syncs},%
+text={sync},%
+plural={syncs},%
+description={Dall'inglese ``Punto di fine", scarico da cui non esco pi\`u (ovvero uno stato finale)},%
+descriptionplural={Dall'inglese ``Punto di fine", scarico da cui non esco pi\`u (ovvero uno stato finale)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{source}{}%
+{%
+\gls@defglossaryentry{source}%
+{%
+name={source},%
+sort={source},%
+type={main},%
+first={source},%
+firstplural={sources},%
+text={source},%
+plural={sources},%
+description={Dall'inglese, stato che ammette solo stati in uscita},%
+descriptionplural={Dall'inglese, stato che ammette solo stati in uscita},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ciclovitasoftware}{}%
+{%
+\gls@defglossaryentry{ciclovitasoftware}%
+{%
+name={ciclo di vita del software},%
+sort={ciclo di vita del software},%
+type={main},%
+first={ciclo di vita del software},%
+firstplural={ciclo di vita del softwares},%
+text={ciclo di vita del software},%
+plural={ciclo di vita del softwares},%
+description={Sono gli stati che il prodotto assume dal concepimento al ritiro},%
+descriptionplural={Sono gli stati che il prodotto assume dal concepimento al ritiro},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{efficacia}{}%
+{%
+\gls@defglossaryentry{efficacia}%
+{%
+name={efficacia},%
+sort={efficacia},%
+type={main},%
+first={efficacia},%
+firstplural={efficacias},%
+text={efficacia},%
+plural={efficacias},%
+description={Conformit\`a al contratto. Si garantisce cio\`e ci\`o che si deve fare, ed \`e determinata dal grado di conformit\`a del progetto rispetto alle norme vidgenti e agli obiettivi prefissati. L'efficacia \`e direttamente proporzionale alla quantit\`a di risorse impiegate},%
+descriptionplural={Conformit\`a al contratto. Si garantisce cio\`e ci\`o che si deve fare, ed \`e determinata dal grado di conformit\`a del progetto rispetto alle norme vidgenti e agli obiettivi prefissati. L'efficacia \`e direttamente proporzionale alla quantit\`a di risorse impiegate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{efficenza}{}%
+{%
+\gls@defglossaryentry{efficenza}%
+{%
+name={efficenza},%
+sort={efficenza},%
+type={main},%
+first={efficenza},%
+firstplural={efficenzas},%
+text={efficenza},%
+plural={efficenzas},%
+description={L'efficienza \`e la capacit\`a di azione o di produzione con il minimo di scarto, di spesa, di risorse e di tempo impiegati. \`E inversamente proporzionale alla aquantit\`a di risorse impiegate nell'esecuzione delle attivit\`a richieste},%
+descriptionplural={L'efficienza \`e la capacit\`a di azione o di produzione con il minimo di scarto, di spesa, di risorse e di tempo impiegati. \`E inversamente proporzionale alla aquantit\`a di risorse impiegate nell'esecuzione delle attivit\`a richieste},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bestpratice}{}%
+{%
+\gls@defglossaryentry{bestpratice}%
+{%
+name={best practice},%
+sort={best practice},%
+type={main},%
+first={best practice},%
+firstplural={best practices},%
+text={best practice},%
+plural={best practices},%
+description={Prassi (modo di fare) che per esperienza e per studio abbia mostrato di garantire i miglio risultati in circostanze note e specifiche},%
+descriptionplural={Prassi (modo di fare) che per esperienza e per studio abbia mostrato di garantire i miglio risultati in circostanze note e specifiche},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iterazione}{}%
+{%
+\gls@defglossaryentry{iterazione}%
+{%
+name={iterazione},%
+sort={iterazione},%
+type={main},%
+first={iterazione},%
+firstplural={iterazioni},%
+text={iterazione},%
+plural={iterazioni},%
+description={Procedere per iterazioni significa operare raffinamenti o rivisitazioni. Essa \`e associabile a un'operazione, ad un qualcosa fatto prima (gi\`a fatto). Questa operazione \`e potenzialmente distruttiva e ha caratteristiche molto pericolose, perch\`e non sa garantire come finir\`a ed \`e una ripetizione di una cosa che ho gi\`a fatto},%
+descriptionplural={Procedere per iterazioni significa operare raffinamenti o rivisitazioni. Essa \`e associabile a un'operazione, ad un qualcosa fatto prima (gi\`a fatto). Questa operazione \`e potenzialmente distruttiva e ha caratteristiche molto pericolose, perch\`e non sa garantire come finir\`a ed \`e una ripetizione di una cosa che ho gi\`a fatto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{incremento}{}%
+{%
+\gls@defglossaryentry{incremento}%
+{%
+name={incremento},%
+sort={incremento},%
+type={main},%
+first={incremento},%
+firstplural={incrementi},%
+text={incremento},%
+plural={incrementi},%
+description={Avvicinamento alla meta che si compie in due modi: aggiungendo o togliendo. Procedere per incrementi significa aggiungere a un impianto base. Un incremento non pu\`o mai tornare sui suoi passi, ed \`e preferibile rispetto alla iterazione, perch\`e pianifica i passi e ci\`o significa che si arriver\`a a una fine},%
+descriptionplural={Avvicinamento alla meta che si compie in due modi: aggiungendo o togliendo. Procedere per incrementi significa aggiungere a un impianto base. Un incremento non pu\`o mai tornare sui suoi passi, ed \`e preferibile rispetto alla iterazione, perch\`e pianifica i passi e ci\`o significa che si arriver\`a a una fine},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{prototipo}{}%
+{%
+\gls@defglossaryentry{prototipo}%
+{%
+name={prototipo},%
+sort={prototipo},%
+type={main},%
+first={prototipo},%
+firstplural={prototipi},%
+text={prototipo},%
+plural={prototipi},%
+description={Originario, abbozza, serve per capire se si sta andando in una direzione giusta o no. Esistono due tipi di prototipi: usa e getta da usare solamente se il beneficio \`e molto maggiore del costo per produrla, altrimenti se si presta ad essere la soluzione, anche se pu\`o essere una base per una iterazione},%
+descriptionplural={Originario, abbozza, serve per capire se si sta andando in una direzione giusta o no. Esistono due tipi di prototipi: usa e getta da usare solamente se il beneficio \`e molto maggiore del costo per produrla, altrimenti se si presta ad essere la soluzione, anche se pu\`o essere una base per una iterazione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{riuso}{}%
+{%
+\gls@defglossaryentry{riuso}%
+{%
+name={riuso},%
+sort={riuso},%
+type={main},%
+first={riuso},%
+firstplural={riusi},%
+text={riuso},%
+plural={riusi},%
+description={Due tipi di riuso: opportunistico (in stile copy-paste, a basso coso ma scarso impatto), altrimenti l'altro uso \`e quando si sa cosa prendo, so perch\`e lo prendo e so cosa fa. Fare software \`e fondalmentalmente riuso. \`e quindi una delle attivit\`a pi\`u importanti di SWE, assume una connotazione positiva},%
+descriptionplural={Due tipi di riuso: opportunistico (in stile copy-paste, a basso coso ma scarso impatto), altrimenti l'altro uso \`e quando si sa cosa prendo, so perch\`e lo prendo e so cosa fa. Fare software \`e fondalmentalmente riuso. \`e quindi una delle attivit\`a pi\`u importanti di SWE, assume una connotazione positiva},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{controllodiversione}{}%
+{%
+\gls@defglossaryentry{controllodiversione}%
+{%
+name={controllo di versione},%
+sort={controllo di versione},%
+type={main},%
+first={controllo di versione},%
+firstplural={controllo di versiones},%
+text={controllo di versione},%
+plural={controllo di versiones},%
+description={--Da completare successivamente--},%
+descriptionplural={--Da completare successivamente--},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{disciplinato}{}%
+{%
+\gls@defglossaryentry{disciplinato}%
+{%
+name={disciplinato},%
+sort={disciplinato},%
+type={main},%
+first={disciplinato},%
+firstplural={disciplinati},%
+text={disciplinato},%
+plural={disciplinati},%
+description={Saper prevedere i costi. Avere una quantit\`a credibile, seguendo le regole. Essere disciplinati significa anche seguire un ordine preciso degli stati nel ciclo di vita del software},%
+descriptionplural={Saper prevedere i costi. Avere una quantit\`a credibile, seguendo le regole. Essere disciplinati significa anche seguire un ordine preciso degli stati nel ciclo di vita del software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{controllodeiprocessi}{}%
+{%
+\gls@defglossaryentry{controllodeiprocessi}%
+{%
+name={controllo dei processi},%
+sort={controllo dei processi},%
+type={main},%
+first={controllo dei processi},%
+firstplural={controllo dei processis},%
+text={controllo dei processi},%
+plural={controllo dei processis},%
+description={Luogo in cui si pongono delle regole per essere sempre efficaci e disciplinati},%
+descriptionplural={Luogo in cui si pongono delle regole per essere sempre efficaci e disciplinati},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{trigger}{}%
+{%
+\gls@defglossaryentry{trigger}%
+{%
+name={trigger},%
+sort={trigger},%
+type={main},%
+first={trigger},%
+firstplural={triggers},%
+text={trigger},%
+plural={triggers},%
+description={Evento che causa il cambiamento di arco nel ciclo di sviluppo del software. Attivit\`a la quale fa cambiare lo stato dell'automa},%
+descriptionplural={Evento che causa il cambiamento di arco nel ciclo di sviluppo del software. Attivit\`a la quale fa cambiare lo stato dell'automa},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fase}{}%
+{%
+\gls@defglossaryentry{fase}%
+{%
+name={fase},%
+sort={fase},%
+type={main},%
+first={fase},%
+firstplural={fases},%
+text={fase},%
+plural={fases},%
+description={Durata temporale entro uno stato di ciclo di vita o in una transizione tra essi},%
+descriptionplural={Durata temporale entro uno stato di ciclo di vita o in una transizione tra essi},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pre-condizione-cascata}{}%
+{%
+\gls@defglossaryentry{pre-condizione-cascata}%
+{%
+name={pre-condizione},%
+sort={pre-condizione},%
+type={main},%
+first={pre-condizione},%
+firstplural={pre-condiziones},%
+text={pre-condizione},%
+plural={pre-condiziones},%
+description={Nel modello a cascata, la pre-condizione \`e ci\`o che \`e verificato prima di entrare in un certo stato},%
+descriptionplural={Nel modello a cascata, la pre-condizione \`e ci\`o che \`e verificato prima di entrare in un certo stato},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{post-condizione-cascata}{}%
+{%
+\gls@defglossaryentry{post-condizione-cascata}%
+{%
+name={post-condizione},%
+sort={post-condizione},%
+type={main},%
+first={post-condizione},%
+firstplural={post-condiziones},%
+text={post-condizione},%
+plural={post-condiziones},%
+description={Nel modello a cascata, \`e ci\`o che dev'essere vero dopo lo svolgimento delle attivit\`a},%
+descriptionplural={Nel modello a cascata, \`e ci\`o che dev'essere vero dopo lo svolgimento delle attivit\`a},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{meta-modello}{}%
+{%
+\gls@defglossaryentry{meta-modello}%
+{%
+name={meta-modello},%
+sort={meta-modello},%
+type={main},%
+first={meta-modello},%
+firstplural={meta-modellos},%
+text={meta-modello},%
+plural={meta-modellos},%
+description={Insieme di regole, vincoli e teorie utilizzate per la modellazione di una classe di problemi con astrazione dal mondo reale},%
+descriptionplural={Insieme di regole, vincoli e teorie utilizzate per la modellazione di una classe di problemi con astrazione dal mondo reale},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{casoduso}{}%
+{%
+\gls@defglossaryentry{casoduso}%
+{%
+name={caso d'uso},%
+sort={caso d'uso},%
+type={main},%
+first={caso d'uso},%
+firstplural={caso d'usos},%
+text={caso d'uso},%
+plural={caso d'usos},%
+description={Tecniche per individuare i requisiti funzionali. Queste Tecniche devono essere comprensibili anche all'utente committente. Il caso d'uso descrive l'insieme di funzionalit\`a del sistema come sono percepite dagli utenti},%
+descriptionplural={Tecniche per individuare i requisiti funzionali. Queste Tecniche devono essere comprensibili anche all'utente committente. Il caso d'uso descrive l'insieme di funzionalit\`a del sistema come sono percepite dagli utenti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{scenario}{}%
+{%
+\gls@defglossaryentry{scenario}%
+{%
+name={scenario},%
+sort={scenario},%
+type={main},%
+first={scenario},%
+firstplural={scenarios},%
+text={scenario},%
+plural={scenarios},%
+description={Rappresenta una sequenza di passi che descrivono iterazioni tra gli utenti e il sistema},%
+descriptionplural={Rappresenta una sequenza di passi che descrivono iterazioni tra gli utenti e il sistema},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{attore}{}%
+{%
+\gls@defglossaryentry{attore}%
+{%
+name={attore},%
+sort={attore},%
+type={main},%
+first={attore},%
+firstplural={attores},%
+text={attore},%
+plural={attores},%
+description={Elemento esterno al sistema che interagisce con sistema},%
+descriptionplural={Elemento esterno al sistema che interagisce con sistema},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{progetto}{}%
+{%
+\gls@defglossaryentry{progetto}%
+{%
+name={progetto},%
+sort={progetto},%
+type={main},%
+first={progetto},%
+firstplural={progettos},%
+text={progetto},%
+plural={progettos},%
+description={Insieme di tre elementi importanti: \begin {enumerate} \item Insieme ordinato di compiti da svolgere \item I compiti da svolgere sono pianificati da inizio a fine \item I vincoli che vengono tenuti conto quando si pianifica nascono da quanto tempo ho a disposizione per l'intero progetto e quali strumenti \`e possibile utilizzare per dare i risultati attesi \end {enumerate}},%
+descriptionplural={Insieme di tre elementi importanti: \begin {enumerate} \item Insieme ordinato di compiti da svolgere \item I compiti da svolgere sono pianificati da inizio a fine \item I vincoli che vengono tenuti conto quando si pianifica nascono da quanto tempo ho a disposizione per l'intero progetto e quali strumenti \`e possibile utilizzare per dare i risultati attesi \end {enumerate}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rischio}{}%
+{%
+\gls@defglossaryentry{rischio}%
+{%
+name={rischio},%
+sort={rischio},%
+type={main},%
+first={rischio},%
+firstplural={rischios},%
+text={rischio},%
+plural={rischios},%
+description={\`e il non aver tenuto conto che le cose possono non andare come avevamo considerato},%
+descriptionplural={\`e il non aver tenuto conto che le cose possono non andare come avevamo considerato},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{slark}{}%
+{%
+\gls@defglossaryentry{slark}%
+{%
+name={slack},%
+sort={slack},%
+type={main},%
+first={slack},%
+firstplural={slacks},%
+text={slack},%
+plural={slacks},%
+description={Margine tra inizio e fine di un'attivit\`a. In italiano \`e sinonimo di lasco},%
+descriptionplural={Margine tra inizio e fine di un'attivit\`a. In italiano \`e sinonimo di lasco},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

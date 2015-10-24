@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{book}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=gray,
+  filecolor=red,
+  linkcolor=blue,
+  urlcolor=blue
+}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{listings}
+\lstset{%
+	commentstyle=\color{green},
+	frame=single,
+	keepspaces=true,
+	keywordstyle=\color{blue},
+	numbers=left,
+	numberstyle=\tiny\color{black},
+	rulecolor=\color{black},
+        basicstyle=\ttfamily
+}
+\usepackage[toc]{glossaries}
+
+\title{Titolo provvisorio}
+\author{SWE Unipd} %da mettere il nome del gruppo quando sar\`a disponibile
+
+\makeglossaries
+
+\begin{document}
+
+\include{res/glossary}
+
+\maketitle
+
+\tableofcontents %indice
+
+\include{res/chapter}
+
+\glsaddall %stampa tutto il glossario, necessario?
+
+\printglossary[title=Glossario,toctitle=Glossario dei termini]
+
+\end{document}
