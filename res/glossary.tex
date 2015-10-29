@@ -16,7 +16,7 @@ name=processo,
 description={Multiple definizioni:
 \begin{enumerate}
 \item Detto in inglese come \textit{Way of working}. Esso \`e rappresentabile come un automa a stati, dove ogni stato rappresenta uno stadio del ciclo di vita del processo
-\item Un insieme di attività, interconnesse, che trasforma uno o più input in output consumando risorse. [SWEBok 8-1]
+\item [SWEBok 8-1] Un insieme di attività, interconnesse, che trasforma uno o più input in output consumando risorse.
 \end{enumerate}
 }
 }
@@ -185,30 +185,29 @@ description={Margine tra inizio e fine di un'attivit\`a. In italiano \`e sinonim
 \newglossaryentry{primaryprocess}
 {
 name = processi primari,
-descritpion = {I processi primari includono processi sofware per: \begin{itemize}
+descritpion = {[def. SWEBok-v3 8-2.1.3] I processi primari includono processi sofware per: \begin{itemize}
 \item Sviluppo
 \item Operazioni o funzioni
 \item Mantenimento
 \end{itemize}
-del software [def. SWEBok-v3 8-2.1.1]}
+del software}
 }
 
 \newglossaryentry{supportinprocess}
 {
 name = processi di supporto,
-description = {Processi di supporto sono applicati discontinuamente o continuamente durante il ciclo di vita del software a supporto dei processi primari; questi includono:\begin{itemize}
+description = {[def. SWEBok-v3 8-2.1.3] Processi di supporto sono applicati discontinuamente o continuamente durante il ciclo di vita del software a supporto dei processi primari; questi includono:\begin{itemize}
 \item Gestione configurazione
 \item Controllo della qualit\'a
 \item Verifica e validazione
 \end{itemize}
-[def. SWEBok-v3 8-2.1.2]
 }
 }
 
 \newglossaryentry{organizationalprocess}
 {
 name = processio organizzativi,
-description = {I processi organizzativi provvedono al supporto all'ingegneria del software. Includono: \begin{itemize}
+description = {[def. SWEBok-v3 8-2.1.3] I processi organizzativi provvedono al supporto all'ingegneria del software. Includono: \begin{itemize}
 \item Formazione
 \item Analisi di misura del processo
 \item Gestione dell'infrastruttura
@@ -216,7 +215,24 @@ description = {I processi organizzativi provvedono al supporto all'ingegneria de
 \item Organizzazione miglioramento dei processi
 \item Gestione del modello del ciclo di vita del software
 \end{itemize}
-[def. SWEBok-v3 8-2.1.3]
 }
 }
 
+\newglossaryentry{SDLC}
+{
+name = Ciclo di vita dello sviluppo software (SDLC),
+descritpion = {[def. SWEBok-v3 8-2] Un ciclo di vita dello sviluppo software include i processi software usati per speficifare e transformare requisiti software in un prodotto software finito.
+}
+
+\newglossaryentry{SPLC}
+{
+name = Ciclo di vita del prodotto software (SPLC),
+descritpion = {[def. SWEBok-v3 8-2] Un ciclo di vita del prodotto software include un SDLC pi\'u addizionali processi software che provvedono al: \begin{itemize}
+\item distribuzione
+\item mantenimento
+\item supporto
+\item evoluzione
+\item ritiro
+\end{itemize}
+e tutti gli altri processi di inizio al ritiro, includendo processi di gestione per il controllo della configurazione e della qualit\'a applicati durante il ciclo di vita del prodotto software. }
+}
