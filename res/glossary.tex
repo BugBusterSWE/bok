@@ -247,9 +247,27 @@ description={Sequenza di attivit\`a-progetto che ha lo slack pi\`u piccolo}
 \newglossaryentry{configuration}
 {
 name=configuration,
-description={La configuration si basa sul concetto di sistema e la si ha dall'inizio di uno sviluppo (conception) fino alla fine (uso operativo).
+description={Definizioni multiple:
+\begin{enumerate}
+\itemLa configuration si basa sul concetto di sistema e la si ha dall'inizio di uno sviluppo (conception) fino alla fine (uso operativo) Ogni pezzo del sistema ha il suo perch\`e e della conception fino all'uso operativo ha diverse configuration. Si hanno tante configuration  potenzialmente in base alle configurazioni che si avranno, e si deve decidere quando averranno i cambiamento di scarsa o molta importanza. Questa decisione avviene attraverso le milestone.
+\item [SWEBok 6-6] Una "Software Configuration" è l'insieme delle funzionalità e delle caratteristiche di hardware o software così come indicate nella documentazione o raggiunte in un prodotto.
+\end{enumerate}
+}
+}
 
-Ogni pezzo del sistema ha il suo perch\`e e della conception fino all'uso operativo ha diverse configuration. Si hanno tante configuration  potenzialmente in base alle configurazioni che si avranno, e si deve decidere quando averranno i cambiamento di scarsa o molta importanza. Questa decisione avviene attraverso le milestone}
+\newglossarentry{configurationitem}{
+name=configuration item,
+description={[SWEBok 6-6]Un configuration item è un elemento o un'aggragazione di hardware e/o software che può essere gestito come una singola entità.}
+}
+
+\newglossarentry{softwareconfigurationitem}{
+name=software configuration item,
+description={[SWEBok 6-6]Un software configuration item è unìentità software che è stata stabilita come configuration item.}
+}
+
+\newglossaryentry{SCM}{
+name=Software Configuration Management (SCM),
+description= [SWEBok 6-1] L'SCM è un processo di supporto al ciclo di vita di un software che avvantaggia la gestione di progetto, le attività di sviluppo e manutenzione, l'attività di garanzia di qualità, così come gli utenti e i clienti del prodotto finale.
 }
 
 \newglossaryentry{milestone}
@@ -265,5 +283,13 @@ Ogni milestone ha un proprio nome se associata e una configurazione detta \texti
 \newglossaryentry{baseline}
 {
 name=baseline,
-description={La baseline \`e un punto di avanzamento certo, dal quale non si torna mai indietro. Viene visto come un punto di situazione certa dalla quale si potr\`a soltanto avanzare senza mai retrocedere}
+description={Definizioni multiple:
+\begin{enumerate}
+\item La baseline \`e un punto di avanzamento certo, dal quale non si torna mai indietro. Viene visto come un punto di situazione certa dalla quale si potr\`a soltanto avanzare senza mai retrocedere}
+\item [SWEBok 6-7] La baseline è una versione approvata di un configuration item che è stata formalmente progettata e definita (/sistemata, "fixed") in un momento specifico del ciclo di vita del configuration item.
+}
+
+\newglossaryentry{versione}{
+name=versione,
+description= [SWEBok 6-7] La versione di un elemento software è un'istanza identificata dell'elemento stesso. Può essere pensata come uno stato di un elemento in evoluzione.
 }
