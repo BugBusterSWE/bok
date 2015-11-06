@@ -249,19 +249,24 @@ name=configuration,
 description={Definizioni multiple:
 \begin{enumerate}
 \item La configuration si basa sul concetto di sistema e la si ha dall'inizio di uno sviluppo (conception) fino alla fine (uso operativo) Ogni pezzo del sistema ha il suo perch\`e e della conception fino all'uso operativo ha diverse configuration. Si hanno tante configuration  potenzialmente in base alle configurazioni che si avranno, e si deve decidere quando averranno i cambiamento di scarsa o molta importanza. Questa decisione avviene attraverso le milestone.
-\item Una "Software Configuration" è l'insieme delle funzionalità e delle caratteristiche di hardware o software così come indicate nella documentazione o raggiunte in un prodotto. [SWEBok 6-6]
+\item Una "Software Configuration" \`e l'insieme delle funzionalità e delle caratteristiche di hardware o software cos\`i come indicate nella documentazione o raggiunte in un prodotto. [SWEBok 6-6]
 \end{enumerate}
 }
 }
 
 \newglossaryentry{configurationitem}{
 name=configuration item,
-description={Un configuration item è un elemento o un'aggragazione di hardware e/o software che può essere gestito come una singola entità.[SWEBok 6-6]}
+description={Definizioni multiple:
+\begin{enumerate}
+\item Un configuration item \`e un elemento o un'aggragazione di hardware e/o software che può essere gestito come una singola entità.[SWEBok 6-6]
+\item Un configuration item \`e qualsiasi cosa associata ad un progetto software (progettazione, codice, dati di test, documentazione) che sia stato messo sotto un controllo di configurazione. Spesso un configuration item ha diverse versioni, e ha un nome univoco. [Sommerville, pag 684]
+\end{enumerate}
+}
 }
 
 \newglossaryentry{softwareconfigurationitem}{
 name=software configuration item,
-description={Un software configuration item è unìentità software che è stata stabilita come configuration item.[SWEBok 6-6]}
+description={Un software configuration item \`e un'entit\`a software che \`e stata stabilita come configuration item.[SWEBok 6-6]}
 }
 
 \newglossaryentry{SCM}{
@@ -283,12 +288,58 @@ name=baseline,
 description={Definizioni multiple:
 \begin{enumerate}
 \item La baseline \`e un punto di avanzamento certo, dal quale non si torna mai indietro. Viene visto come un punto di situazione certa dalla quale si potr\`a soltanto avanzare senza mai retrocedere
-\item La baseline è una versione approvata di un configuration item che è stata formalmente progettata e definita (/sistemata, "fixed") in un momento specifico del ciclo di vita del configuration item. [SWEBok 6-7]
+\item La baseline \`e una versione approvata di un configuration item che è stata formalmente progettata e definita (/sistemata, "fixed") in un momento specifico del ciclo di vita del configuration item. [SWEBok 6-7]
+\item Una baseline \`e una collezione delle versioni dei componenti che compongono un sistema. Le baseline sono controllate, il che significa che le versioni dei componenti che compongono il sistema non possono essere cambiate e che è sempre possibile ricreare una baseline a partire dai componenti che la costituiscono. [Sommerville, pag 684]
 \end{enumerate}
 }
 }
 
 \newglossaryentry{versione}{
 name=versione,
-description={La versione di un elemento software è un'istanza identificata dell'elemento stesso. Può essere pensata come uno stato di un elemento in evoluzione.[SWEBok 6-7]}
+description={Definizioni multiple:
+\begin{enumerate}
+\item La versione di un elemento software è un'istanza identificata dell'elemento stesso. Può essere pensata come uno stato di un elemento in evoluzione.[SWEBok 6-7]
+\item Una versione è un'istanza di un configuration item che differisce, in qualche modo, dalle altre istanze di quell'item. Le versioni hanno sempre un'identificatore unico, che spesso è composto dal nome del configuration item più un numero di versione. [Sommerville, pag 684]
+\end{enumerate}
+}
+}
+
+\newglossaryentry{controllodiconfigurazione}{
+name=controllo di configurazione,
+description=\`E il processo che garantisce che le versioni di un sistema e i componenti siano registrati e mantenuti in modo da poter gestire i cambiamenti e poter identificare e memorizzare tutte le versioni dei componenti durante il tempo di vita del sistema. [Sommerville, pag 684]
+}
+
+\newglossaryentry{codeline}{
+name=codeline,
+description=\`E un insieme di versioni di un componente software e dei configuration item dai quali dipende. In altre parole \`e una sequenza di versioni di codice sorgente nella quale le versioni successive derivano dalle precedenti. [Sommerville, pag 684/690]
+}
+
+\newglossaryentry{mainline}{
+name=mainline,
+description=\`E una sequenza di baseline che rappresenta le differenti versioni di un sistema. [Sommerville, pag 684]
+}
+
+\newglossaryentry{release}{
+name=release,
+description=\`E una versione di un sistema rilasciata ai consumatori. [Sommerville, pag 684]
+}
+
+\newglossaryentry{workspace}{
+name=workspace,
+description=\`E un'area di lavoro privata dove il software può essere modificato senza influenze da parte degli altri sviluppatori che stanno modificando lo stesso software. [Sommerville, pag 684]
+}
+
+\newglossaryentry{branching}{
+name=branching,
+description=\`E la creazione di una nuova codeline a partire da una esistente. Le due codeline possono essere sviluppate in modo indipendente. [Sommerville, pag 684]
+}
+
+\newglossaryentry{merging}{
+name=merging,
+description=\`E la creazione di una nuova versione di un componente ottenuta unendo versioni separate in codeline differenti. Queste codeline possono essere state create da una precedente ramificazione (branch).  [Sommerville, pag 684]
+}
+
+\newglossaryentry{systembuilding}{
+name=system building,
+description=\`E la creazione di una nuova versione eseguibile del sistema attraverso la compilazione e il "linkaggio" di versioni appropriate dei componente e delle librerie che compongono il sistema. [Sommerville, pag 684]
 }
